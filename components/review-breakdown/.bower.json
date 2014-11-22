@@ -1,0 +1,36 @@
+{
+  "name": "review-breakdown",
+  "authors": [
+    "pjv <ezelspinguin@gmail.com>"
+  ],
+  "description": "A component for review breakdowns like at The Verge.",
+  "keywords": [
+    "web-component",
+    "web-components",
+    "polymer",
+    "review"
+  ],
+  "main": "review-breakdown.html",
+  "license": "BSD",
+  "homepage": "https://github.com/pjjjv/ReviewBreakdownDart",
+  "ignore": [
+    "/.*",
+    "/tests/"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^0.5.1"
+  },
+  "devDependencies": {
+    "web-component-tester": "Polymer/web-component-tester#^2.0.0-rc1"
+  },
+  "_release": "5c22b7ed6e",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "5c22b7ed6e16a640eea14b033521d7671fda84d9"
+  },
+  "_source": "git://github.com/pjjjv/ReviewBreakdown.git",
+  "_target": "master",
+  "_originalSource": "pjjjv/ReviewBreakdown",
+  "_direct": true
+}

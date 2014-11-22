@@ -1,0 +1,7 @@
+{
+  "name": "ReviewBreakdown#gh-pages",
+  "private": true,
+  "dependencies": {
+    "review-breakdown": "pjjjv/ReviewBreakdown#master"
+  }
+}
