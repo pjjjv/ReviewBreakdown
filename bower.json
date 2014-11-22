@@ -16,10 +16,16 @@
   "homepage": "http://pjjjv.github.io/ReviewBreakdown/components/review-breakdown/",
   "ignore": [
     "/.*",
-    "/tests/"
+    "/tests/",
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "../",
+    "test",
+    "tests"
   ],
   "dependencies": {
-    "polymer": "Polymer/polymer#^0.5.1"
+    "polymer": "~0.5.1"
   },
   "devDependencies": {
     "web-component-tester": "Polymer/web-component-tester#^2.0.0-rc1"
