@@ -13,7 +13,7 @@
   ],
   "main": "review-breakdown.html",
   "license": "BSD",
-  "homepage": "https://github.com/pjjjv/ReviewBreakdownDart",
+  "homepage": "http://pjjjv.github.io/ReviewBreakdown/components/review-breakdown/",
   "ignore": [
     "/.*",
     "/tests/"
