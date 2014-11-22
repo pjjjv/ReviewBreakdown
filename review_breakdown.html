@@ -1,5 +1,25 @@
+<!--
+    @license
+    Copyright (c) 2014 pjv. All rights reserved.
+    This code may only be used under the BSD style license found in LICENSE.
+-->
 <link rel="import" href="../polymer/polymer.html">
 
+<!--
+A component for review breakdowns like at The Verge.
+
+##### Example
+
+    <review-breakdown items="{{list of items as maps with label and heat}}">
+      <h4>The Breakdown</h4>
+      <p>More times than not, the Verge score is based on the average of the subscores below. However, since this is a non-weighted average, we reserve the right to tweak the overall score if we feel it doesn't reflect our overall assessment and price of the product. Read more about how we test and rate products.</p>
+    </review-breakdown>
+
+@element review-breakdown
+@blurb A component for review breakdowns like at The Verge.
+@status alpha
+@homepage https://github.com/pjjjv/ReviewBreakdown
+-->
 <polymer-element name="review-breakdown" attributes="items">
 <template>
 <link href='http://fonts.googleapis.com/css?family=Abel'
@@ -23,6 +43,12 @@
 <script>
 Polymer({
   created: function() {
+      /**
+       * Items are some default breakdown categories.
+       *
+       * @attribute pjv
+       * @type List
+       */
     this.items = [{
       label: 'Test10',
       heat: 10
