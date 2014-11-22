@@ -1,0 +1,64 @@
+<link rel="import" href="../polymer/polymer.html">
+
+<polymer-element name="review-breakdown" attributes="items">
+<template>
+<link href='http://fonts.googleapis.com/css?family=Abel'
+  rel='stylesheet' type='text/css'>
+<link href="review_breakdown.css" rel="stylesheet">
+<div class="m-review__breakdown">
+
+  <content select="h4"></content>
+
+  <content class="blurb"></content>
+
+  <ul class="m-review__breakdown-meter">
+    <template repeat="{{item in items}}">
+    <li class="heat{{item['heat']}}"><em>{{item['label']}}</em>
+      {{item['heat']}}</li>
+    </template>
+  </ul>
+
+</div>
+</template>
+<script>
+Polymer({
+  created: function() {
+    this.items = [{
+      label: 'Test10',
+      heat: 10
+    }, {
+      label: 'Test9',
+      heat: 9
+    }, {
+      label: 'Test8',
+      heat: 8
+    }, {
+      label: 'Test7',
+      heat: 7
+    }, {
+      label: 'Test6',
+      heat: 6
+    }, {
+      label: 'Test5',
+      heat: 5
+    }, {
+      label: 'Test4',
+      heat: 4
+    }, {
+      label: 'Test3',
+      heat: 3
+    }, {
+      label: 'Test2',
+      heat: 2
+    }, {
+      label: 'Test1',
+      heat: 1
+    }, {
+      label: 'Test0',
+      heat: 0
+    }];
+  }
+});
+</script>
+</polymer-element>
+
