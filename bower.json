@@ -1,6 +1,6 @@
 {
   "name": "review-breakdown",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "authors": [
     "pjv <ezelspinguin@gmail.com>"
   ],
@@ -13,7 +13,7 @@
   ],
   "main": "review-breakdown.html",
   "license": "BSD",
-  "homepage": "http://pjjjv.github.io/ReviewBreakdown/components/review-breakdown/",
+  "homepage": "https://pjjjv.github.io/ReviewBreakdownTest/demo.html",
   "ignore": [
     "/.*",
     "/tests/",
